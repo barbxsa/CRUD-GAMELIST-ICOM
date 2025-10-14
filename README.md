@@ -18,7 +18,7 @@ O objetivo é demonstrar como integrar uma API com um front-end para gerenciamen
 
 ### 1. Clone este repositório
 ```
-git clone https://github.com/barbxsa/icom-teste.git
+git clone https://github.com/barbxsa/CRUD-GAMELIST-ICOM.git
 cd icom-teste
 ```
 ### 2. Instale as dependências 
