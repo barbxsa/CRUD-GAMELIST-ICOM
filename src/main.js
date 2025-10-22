@@ -264,3 +264,31 @@ $(document).ready(function() {
 });
 
 
+// Ação Front-end
+
+$(document).on("click", ".menu-link", function (e) {
+    e.preventDefault();
+    let target = $(this).data("target");
+
+    $(".conteudo").addClass("d-none"); 
+    $("#" + target).removeClass("d-none"); 
+    carregarLogs(); 
+
+    $(".menu-link").removeClass("active");
+    $(this).addClass("active");
+
+});
+
+$(document).on("click", "#btnAdicionarJogo", function (e) {
+    e.preventDefault();
+    let target = $(this).data("target");
+
+    $(".conteudo").addClass("d-none");
+    $("#" + target).removeClass("d-none");
+      
+});
+
+$("#menu-toggle").on("click", function () {
+    $("#sidebar").toggleClass("active");
+    $("#content").toggleClass("shift");
+});
