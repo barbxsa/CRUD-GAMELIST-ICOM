@@ -1,11 +1,11 @@
-# 📌 CRUD com Node.js, Express, TypeScript, SQLite e Bootstrap para teste do Grupo ICOM
+# CRUD com Node.js, Express, TypeScript, SQLite e Bootstrap para teste do Grupo ICOM
 
 Este projeto é um **CRUD simples** em que armazenamos dados no banco de dados e consumimos a API no front-end, desenvolvido com **Node.js + Express + TypeScript + SQLite** no back-end e **Bootstrap** no front-end.  
 O objetivo é demonstrar como integrar uma API com um front-end para gerenciamento de dados e salvamentos de logs.
 
 ---
 
-## ⚙️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
@@ -14,7 +14,7 @@ O objetivo é demonstrar como integrar uma API com um front-end para gerenciamen
 
 ---
 
-## 🚀 Como rodar o projeto
+## Como rodar o projeto
 
 ### 1. Clone este repositório
 ```
@@ -35,12 +35,12 @@ http://localhost:3000
 Basta abrir o arquivo index.html no seu navegador (ele está dentro da pasta do projeto).
 Esse arquivo faz requisições para a API criada no back-end via Ajax.
 
-### 🖼️ Print do projeto
+### Print do projeto
 
 ![alt text](https://raw.githubusercontent.com/barbxsa/icom-teste/refs/heads/main/screenshot.png)
 
 
-### 📄 Endpoints da API
+### Endpoints da API
 A API possui os seguintes endpoints:
 
 ```
